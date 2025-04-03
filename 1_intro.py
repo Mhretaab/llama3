@@ -13,7 +13,7 @@ from llama_cpp import Llama
 
 # This is faster than using .from_pretrained() which downloads from Hugging Face.
 llm = Llama(
-    model_path="Meta-Llama-3-8B.Q2_K.gguf",
+    model_path="Meta-Llama-3-8B.Q2_K.gguf", #Llama-3.2-1B-Instruct-Q3_K_L.gguf
 )
 
 #Define a question prompt
